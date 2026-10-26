@@ -3,7 +3,7 @@ const app = express();
 const port = 80;
 
 app.get('/', (req, res) => {
-	res.send('Hello from Northflank! This update was deployed automatically.');
+	res.send('Hello! Check out this update.');
 });
 
 app.get('/api/:id', (req, res) => {
