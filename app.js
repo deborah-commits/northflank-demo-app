@@ -3,7 +3,7 @@ const app = express();
 const port = 80;
 
 app.get('/', (req, res) => {
-	res.send('Hey! Check out this update now!!.');
+	res.send('Hello from Northflank! Updated through CI/CD');
 });
 
 app.get('/api/:id', (req, res) => {
